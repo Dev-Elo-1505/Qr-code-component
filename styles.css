@@ -1,0 +1,65 @@
+:root {
+    --White: hsl(0, 0%, 100%);
+    --Light-gray: hsl(212, 45%, 89%);
+    --Grayish-blue: hsl(220, 15%, 55%);
+    --Dark-blue: hsl(218, 44%, 22%);
+}
+
+body {
+    background-color: var(--Light-gray);
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1000px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image {
+    width: 250px;
+    height: 370px;
+    background-color: var(--White);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+}
+
+img {
+    width: 210px;
+    height: 210px;
+    border-radius: 10px;
+    margin: auto;
+    
+}
+
+.par1 {
+    font-size: 15px;
+    font-weight: 700;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: var(--Dark-blue);
+    text-align: center;
+    display: flex;
+    margin: 10px;
+
+}
+
+.par2 {
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: var(--Light-gray);
+    text-align: center;
+    margin: 10px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
